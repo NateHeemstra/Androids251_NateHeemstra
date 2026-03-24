@@ -363,3 +363,10 @@ fun StudentGradeManagerPreview() {
         StudentGradeManager()
     }
 }
+/**
+* How does the MainViewModel effectively manage the various pieces of data (e.g., student list, loading status, input fields) that need to be observed and updated by the UI?
+*Explain how the interaction between the StudentGradeManager Composable and the MainViewModel demonstrates a unidirectional data flow. Why is this pattern beneficial for UI development?
+*Describe the lifecycle of the MainViewModel in relation to MainActivity. Why is it important for the ViewModel to outlive configuration changes, and how does viewModel() assist with this?
+*Explain the key advantages of using LazyColumn for displaying the list of students instead of a regular Column with a scroll modifier. When would you choose one over the other?
+*How does the design of this application (with MainActivity, MainViewModel, and various @Composable functions) exemplify the principle of separation of concerns? What are the benefits of this approach?
+*/
